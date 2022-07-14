@@ -1,1 +1,106 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  background: #3023ae;
+  background: -moz-linear-gradient(60deg, #3023ae 0%, #c86dd7 100%);
+  background: -webkit-linear-gradient(60deg, #3023ae 0%, #c86dd7 100%);
+  background: linear-gradient(60deg, #3023ae 0%, #c86dd7 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(StartColor='#3023ae', endColor='#c86dd7');
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  text-align: left;
+  margin: 10px;
+  padding: 35px;
+  list-style: none;
+  background: aliceblue;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);
+  -moz-box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);
+  box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);
+}
+
+li {
+  padding: 15px;
+  margin: 5px;
+  font-size: 1em;
+  font-style: italic;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+li > button {
+  border: none;
+  background-color: aliceblue;
+  font-size: 1em;
+  float: right;
+  opacity: 0.6;
+  transition: opacity 1s;
+}
+
+li > button:hover {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.title {
+  font-family: 'Dancing Script', cursive;
+  color: aliceblue;
+  font-size: 5em;
+  text-shadow: 3px 5px #000;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.button {
+  background-color: #000;
+  border: none;
+  padding: 20px;
+  color: aliceblue;
+  border-radius: 30px;
+  font-size: 1em;
+  font-weight: 100;
+  margin-top: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#modal {
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+  background: aliceblue;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);
+  -moz-box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);
+  box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);
+}
+
+input {
+  width: 98%;
+  line-height: 30px;
+  text-indent: 10px;
+  font-size: 1.2em;
+}
+
+.danger {
+  background-color: firebrick;
+  color: ghostwhite;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.fa-save {
+  padding-right: 0.4em;
+}
+
